@@ -29,7 +29,8 @@ gulp.task('webserver', function () {
                 // 实时刷新
                 livereload: true,
                 directoryListing: true,
-                open: true
+                open: true,
+                host:'192.168.2.101'
             }) //  end webserver
         ); // end gulp
 }); // end task
