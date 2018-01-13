@@ -89,7 +89,7 @@ $(function () {
             $(this).siblings('.video-box').find('.video-full')[0].pause();
             $(this).parents('.video-full-container').hide();
         })
-        $(document).on('click', '.slide3-line-btn', function () {
+        $(document).on('click', '#to-remote', function () {
             window.location.href = 'https://cloud.tencent.com/act/event/wx-video.html'
         })
     }
