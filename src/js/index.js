@@ -18,6 +18,7 @@ $(function () {
             direction: 'horizontal',
             pagination : '.swiper-pagination',
             paginationClickable :true,
+            loop : true,
             onInit: function (opt) {},
             onSlideChangeEnd: function (opt) {}
         })
@@ -55,13 +56,11 @@ $(function () {
         $('.page1').hide();
         $('.page2').show();
         var introVideo = $('#start-video')[0];
-        console.log($('.page3').css('display'));
         setTimeout(function () {
             $('.page3').css({
                 'display': 'block',
                 'z-index': '-10'
             })
-            console.log($('.page3').css('display'));
         }, 2000)
         introVideo.addEventListener("ended", function () {
             $('.page2').hide();
