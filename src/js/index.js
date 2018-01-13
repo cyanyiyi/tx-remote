@@ -9,19 +9,20 @@ $(function () {
     main.initSwipper = function () {
         main.mainSwiper = new Swiper('.swiper-container-main', {
             direction: 'vertical',
+            pagination : '.swiper-pagination',
             onInit: function (opt) { },
             onSlideChangeEnd: function (opt) {
                 // console.log(opt.activeIndex);
             }
         })
-        main.subSwiper = new Swiper('.swiper-container-sub', {
-            direction: 'horizontal',
-            pagination : '.swiper-pagination',
-            paginationClickable :true,
-            loop : true,
-            onInit: function (opt) {},
-            onSlideChangeEnd: function (opt) {}
-        })
+        // main.subSwiper = new Swiper('.swiper-container-sub', {
+        //     direction: 'horizontal',
+        //     pagination : '.swiper-pagination',
+        //     paginationClickable :true,
+        //     loop : true,
+        //     onInit: function (opt) {},
+        //     onSlideChangeEnd: function (opt) {}
+        // })
     }
     main.loadLine = function () {
         var wid = 0;

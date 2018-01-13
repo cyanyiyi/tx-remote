@@ -590,7 +590,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/slide1-bg.jpg') no-repeat center center;
+    background: #020544 url('../img/1yd.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -598,17 +598,18 @@ div {
     width: 100%;
     height: 100%;
 }
-
+.swiper-container-main .pagination-main {
+    
+}
 .page3 .slide2 {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
-    /* background: #020544 url('../img/bg2.jpg') no-repeat left bottom;
-    background-size: contain; */
-    background: #ecf1f5;
-    /* position: relative; */
+    overflow: hidden;
+    background: #020544 url('../img/1在线医疗.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
 }
-.swiper-container-sub {
+/* .swiper-container-sub {
     width: 100%;
     height: 100%;
 }
@@ -618,38 +619,65 @@ div {
 }
 .swiper-container-sub .sub-pagination {
     bottom: 2rem !important;
-}
-.page3 .slide2 .slide2-video-wrapper {
-    width: 93%;
-    height: 11.37rem;
-    background: url('../img/slide2-video-wrapper-bg.png') no-repeat center center;
-    background-size: cover;
-}
-.page3 .slide2 .slide2-title {
-    width: 85%;
-    height: 1.18rem;
-    background: url('../img/slide2-title.png') no-repeat center center;
-    background-size: cover;
-    margin: 0.4rem auto 0;
-}
-.page3 .slide2 .slide2-video-con {
-    width: 88%;
-    height: 8.6rem;
-    margin: 0.4rem auto 0;
-    overflow: hidden;
-}
-.page3 .slide2 .video-wrapper {
-    width: 98%;
-    height: 4rem;
-    margin: 0 auto 15px;
-    position: relative;
-}
+} */
 
-.page3 .slide2 .video-box {
+.page3 .slide3 {
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1在线面试.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
 }
-.page3 .slide3 {
+.page3 .slide4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1多方视频沟通.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide5 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1车辆定损.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide6 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1远程开户.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide7 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1远程报警.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide8 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1远程教育.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide9 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020544 url('../img/1远程法庭.jpg') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+.page3 .slide10 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -657,7 +685,7 @@ div {
     background-size: cover;
     position: relative;
 }
-.page3 .slide3 .slide3-line-btn {
+.page3 .slide10 .slide10-line-btn {
     width: 3.7rem;
     height: 0.8rem;
     line-height: 0.8rem;
