@@ -12,17 +12,8 @@ $(function () {
             pagination : '.swiper-pagination',
             onInit: function (opt) { },
             onSlideChangeEnd: function (opt) {
-                // console.log(opt.activeIndex);
             }
         })
-        // main.subSwiper = new Swiper('.swiper-container-sub', {
-        //     direction: 'horizontal',
-        //     pagination : '.swiper-pagination',
-        //     paginationClickable :true,
-        //     loop : true,
-        //     onInit: function (opt) {},
-        //     onSlideChangeEnd: function (opt) {}
-        // })
     }
     main.loadLine = function () {
         var wid = 0;
@@ -58,7 +49,7 @@ $(function () {
         $('.page2').show();
         var introVideo = $('#start-video')[0];
         setTimeout(function () {
-            $('.page3').css({
+            $('.page4').css({
                 'display': 'block',
                 'z-index': '-10'
             })
@@ -73,8 +64,16 @@ $(function () {
             main.page3();
         })
     }
-    main.page3 = function () {
-        $('.page3').css('z-index', 1).show();
+    main.page3 = function() {
+        console.log(1);
+        $('.page3').show();
+        $(document).on('click', '#intro-btn', function () {
+            $('.page3').hide();
+            main.page4();
+        })
+    }
+    main.page4 = function () {
+        $('.page4').css('z-index', 1).show();
         main.initSwipper();
         $.each($('.video-full'), function(k, v){
             v.addEventListener("ended", function () {

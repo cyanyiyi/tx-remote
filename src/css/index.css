@@ -439,114 +439,6 @@ div {
     overflow: hidden;
 }
 
-/* loader1 */
-/* .page1 .ball-ellipsis-wrapper {
-    width: 48px;
-    height: 6px;
-    margin-top: 14px;
-    overflow: hidden;
-}
-
-.page1 .ball-ellipsis {
-    width: 4px;
-    height: 4px;
-    margin: 0 2px;
-    border-radius: 50%;
-    -webkit-border-raduis: 50%;
-    background: #fff;
-    opacity: 1;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(1) {
-    animation: fadeInOut 2s .2s infinite;
-    -webkit-animation: fadeInOut 2s .2s infinite;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(2) {
-    animation: fadeInOut 2s .6s infinite;
-    -webkit-animation: fadeInOut 2s .6s infinite;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(3) {
-    animation: fadeInOut 2s .6s infinite;
-    -webkit-animation: fadeInOut 2s .6s infinite;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(4) {
-    animation: fadeInOut 2s .8s infinite;
-    -webkit-animation: fadeInOut 2s .8s infinite;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(5) {
-    animation: fadeInOut 2s 1s infinite;
-    -webkit-animation: fadeInOut 2s 1s infinite;
-}
-
-.page1 .ball-ellipsis-wrapper>div:nth-child(6) {
-    animation: fadeInOut 2s 1.2s infinite;
-    -webkit-animation: fadeInOut 2s 1.2s infinite;
-}
-
-@keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    66% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    66% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    66% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    66% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-} */
-
 .page2 {
     background: #000;
 }
@@ -603,6 +495,31 @@ div {
 }
 
 .page3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../img/intro.jpg') no-repeat center center;
+    background-size: cover;
+}
+.page3 .intro-btn {
+    width: 3.7rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: rgba(43, 102, 230, 0.8);
+    border-radius: 0.4rem;
+    -webkit-border-radius:0.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: auto;
+}
+.page4 {
 
 }
 @keyframes slideUp {
@@ -672,14 +589,6 @@ div {
     animation: slideUp 0.8s 0s infinite;
     -webkit-animation: slideUp 0.8s 0s infinite;
 }
-.page3 .slide1 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: #020544 url('../img/1yd.jpg') no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
 .swiper-container-main{
     width: 100%;
     height: 100%;
@@ -687,7 +596,7 @@ div {
 .swiper-container-main .pagination-main {
     
 }
-.page3 .slide2 {
+.page4 .slide1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -695,7 +604,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide3 {
+.page4 .slide2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -703,7 +612,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide4 {
+.page4 .slide3 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -711,7 +620,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide5 {
+.page4 .slide4 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -719,7 +628,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide6 {
+.page4 .slide5 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -727,7 +636,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide7 {
+.page4 .slide6 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -735,7 +644,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide8 {
+.page4 .slide7 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -743,7 +652,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide9 {
+.page4 .slide8 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -751,7 +660,7 @@ div {
     background-size: cover; 
     position: relative;
 }
-.page3 .slide10 {
+.page4 .slide9 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -759,7 +668,7 @@ div {
     background-size: cover;
     position: relative;
 }
-.page3 .slide10 .slide10-line-btn {
+.page4 .slide9 .slide9-line-btn {
     width: 3.7rem;
     height: 0.8rem;
     line-height: 0.8rem;
