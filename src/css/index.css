@@ -608,11 +608,11 @@ div {
 @keyframes slideUp {
     0% {
         opacity: 0.6;
-        bottom: 40px;
+        bottom: 5px;
     }
     100% {
         opacity: 1;
-        bottom: 60px;
+        bottom: 25px;
     }
 }
 
@@ -622,11 +622,11 @@ div {
 {
     0% {
         opacity: 0.6;
-        bottom: 40px;
+        bottom: 5px;
     }
     100% {
         opacity: 1;
-        bottom: 60px;
+        bottom: 25px;
     }
 }
 
@@ -636,11 +636,11 @@ div {
 {
     0% {
         opacity: 0.6;
-        bottom: 40px;
+        bottom: 5px;
     }
     100% {
         opacity: 1;
-        bottom: 60px;
+        bottom: 25px;
     }
 }
 
@@ -650,11 +650,11 @@ div {
 {
     0% {
         opacity: 0.6;
-        bottom: 40px;
+        bottom: 5px;
     }
     100% {
         opacity: 1;
-        bottom: 60px;
+        bottom: 25px;
     }
 }
 .arrow {
@@ -665,7 +665,7 @@ div {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 40px;
+    bottom: 5px;
     z-index: 10000;
     opacity: 0.6;
     margin: auto;
@@ -707,7 +707,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1多方视频沟通.jpg') no-repeat center center;
+    background: #020544 url('../img/3.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -715,7 +715,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1车辆定损.jpg') no-repeat center center;
+    background: #020544 url('../img/4.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -723,7 +723,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1远程开户.jpg') no-repeat center center;
+    background: #020544 url('../img/5.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -731,7 +731,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1远程报警.jpg') no-repeat center center;
+    background: #020544 url('../img/6.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -739,7 +739,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1远程教育.jpg') no-repeat center center;
+    background: #020544 url('../img/7.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -747,7 +747,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #020544 url('../img/1远程法庭.jpg') no-repeat center center;
+    background: #020544 url('../img/8.jpg') no-repeat center center;
     background-size: cover; 
     position: relative;
 }
@@ -755,7 +755,7 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #ecf1f5 url('../img/1主稿3版.jpg') no-repeat center center;
+    background: #ecf1f5 url('../img/9.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -772,6 +772,6 @@ div {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 1.35rem;
+    bottom: 2rem;
     margin: auto;
 }
