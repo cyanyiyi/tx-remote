@@ -277,6 +277,92 @@ div {
 .mr15 {
     margin-right: 0.15rem;
 }
+.earth-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    -webkit-border-radius:50px;
+    overflow: hidden;
+    animation: earthRotate 3s linear infinite;
+    -webkit-animation: earthRotate 3s linear infinite;
+}
+@keyframes earthRotate {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes earthRotate
+/* Firefox */
+
+{
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes earthRotate
+/* Safari 和 Chrome */
+
+{
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes earthRotate
+/* Opera */
+
+{
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
 .page {
     width: 100%;
     height: 100%;
@@ -590,8 +676,8 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1yd.jpg') no-repeat center center; */
-    /* background-size: cover; */
+    background: #020544 url('../img/1yd.jpg') no-repeat center center;
+    background-size: cover;
     position: relative;
 }
 .swiper-container-main{
@@ -605,84 +691,72 @@ div {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1在线医疗.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
-/* .swiper-container-sub {
-    width: 100%;
-    height: 100%;
-}
-.swiper-container-sub .sub-slide {
-    width: 100%;
-    height: 100%;
-}
-.swiper-container-sub .sub-pagination {
-    bottom: 2rem !important;
-} */
-
 .page3 .slide3 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1在线面试.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/2.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide4 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1多方视频沟通.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1多方视频沟通.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide5 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1车辆定损.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1车辆定损.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide6 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1远程开户.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1远程开户.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide7 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1远程报警.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1远程报警.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide8 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1远程教育.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1远程教育.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide9 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #020544 url('../img/1远程法庭.jpg') no-repeat center center; */
-    /* background-size: cover;  */
+    background: #020544 url('../img/1远程法庭.jpg') no-repeat center center;
+    background-size: cover; 
     position: relative;
 }
 .page3 .slide10 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* background: #ecf1f5 url('../img/1主稿3版.jpg') no-repeat center center; */
-    /* background-size: cover; */
+    background: #ecf1f5 url('../img/1主稿3版.jpg') no-repeat center center;
+    background-size: cover;
     position: relative;
 }
 .page3 .slide10 .slide10-line-btn {
