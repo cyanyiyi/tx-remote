@@ -49,7 +49,7 @@ $(function () {
         $('.page2').show();
         var introVideo = $('#start-video')[0];
         setTimeout(function () {
-            $('.page4').css({
+            $('.page3').css({
                 'display': 'block',
                 'z-index': '-10'
             })
@@ -65,8 +65,7 @@ $(function () {
         })
     }
     main.page3 = function() {
-        console.log(1);
-        $('.page3').show();
+        $('.page3').css('z-index', 1).show();
         $(document).on('click', '#intro-btn', function () {
             $('.page3').hide();
             main.page4();
