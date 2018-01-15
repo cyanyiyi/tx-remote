@@ -385,8 +385,8 @@ div {
     border-radius: 50%;
     -webkit-border-radius:50%;
     overflow: hidden;
-    animation: earthRotate 3s linear infinite;
-    -webkit-animation: earthRotate 3s linear infinite;
+    /* animation: earthRotate 3s linear infinite; */
+    /* -webkit-animation: earthRotate 3s linear infinite; */
 }
 .page1 .ground-person {
     width: 100%;
