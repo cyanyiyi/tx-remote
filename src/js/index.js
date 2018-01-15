@@ -41,7 +41,7 @@ $(function () {
             main.page2();
             setTimeout(function () {
                 $('#start-video-jump').fadeIn();
-            }, 5000)
+            }, 2000)
         })
     }
     main.page2 = function () {
