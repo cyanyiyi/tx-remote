@@ -479,7 +479,7 @@ div {
 .video-jump {
     position: absolute;
     right: 15px;
-    bottom: 30px;
+    top: 30px;
     z-index: 100;
     width: 32px;
     height: 16px;
