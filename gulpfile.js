@@ -30,7 +30,7 @@ gulp.task('webserver', function () {
                 livereload: true,
                 directoryListing: true,
                 open: true,
-                // host:'192.168.2.101'
+                host:'192.168.2.101'
             }) //  end webserver
         ); // end gulp
 }); // end task
