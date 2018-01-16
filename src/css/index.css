@@ -769,7 +769,7 @@ div {
     position: relative;
 }
 .page4 .slide7 .slide7-line-btn {
-    width: 3.7rem;
+    width: 50%;
     height: 0.8rem;
     line-height: 0.8rem;
     text-align: center;
@@ -792,9 +792,8 @@ div {
     width: 0.6rem;
     height: 0.6rem;
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 1.2rem;
+    right: 24%;
+    bottom: 1.4rem;
     margin: auto;
     animation: scale 1s linear infinite;
     -webkit-animation: scale 1s linear infinite;
