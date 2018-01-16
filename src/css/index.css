@@ -655,12 +655,9 @@ div {
 }
 
 .page3 .intro-btn {
-    width: 3.54rem;
-    height: 1.08rem;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    background: url('../img/bt-bg-2.png') no-repeat center center;
+    width: 4.83rem;
+    height: 1.43rem;
+    background: url('../img/bt-bg-3.png') no-repeat center center;
     background-size: cover;
     /* border-radius: 0.4rem;
     -webkit-border-radius:0.4rem; */
@@ -669,6 +666,10 @@ div {
     right: 0;
     bottom: 0.8rem;
     margin: auto;
+}
+.page3 .intro-btn .intro-btn-txt {
+    width: 3.54rem;
+    height: 1.08rem;
 }
 
 .page4 {}
@@ -902,25 +903,25 @@ div {
     }
     0% {
         opacity: .8;
-        -webkit-transform: scale3d(.9, .9, .9);
-        transform: scale3d(.9, .9, .9);
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
     }
     20% {
-        -webkit-transform: scale3d(1.07, 1.07, 1.07);
-        transform: scale3d(1.07, 1.07, 1.07);
-    }
-    40% {
-        -webkit-transform: scale3d(.94, .94, .94);
-        transform: scale3d(.94, .94, .94);
-    }
-    60% {
-        opacity: 1;
         -webkit-transform: scale3d(1.03, 1.03, 1.03);
         transform: scale3d(1.03, 1.03, 1.03);
     }
+    40% {
+        -webkit-transform: scale3d(.99, .99, .99);
+        transform: scale3d(.99, .99, .99);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.01, 1.01, 1.01);
+        transform: scale3d(1.01, 1.01, 1.01);
+    }
     80% {
-        -webkit-transform: scale3d(.97, .97, .97);
-        transform: scale3d(.97, .97, .97);
+        -webkit-transform: scale3d(.99, .99, .99);
+        transform: scale3d(.99, .99, .99);
     }
     100% {
         opacity: 1;
@@ -941,25 +942,25 @@ div {
     }
     0% {
         opacity: .8;
-        -webkit-transform: scale3d(.9, .9, .9);
-        transform: scale3d(.9, .9, .9);
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
     }
     20% {
-        -webkit-transform: scale3d(1.07, 1.07, 1.07);
-        transform: scale3d(1.07, 1.07, 1.07);
-    }
-    40% {
-        -webkit-transform: scale3d(.94, .94, .94);
-        transform: scale3d(.94, .94, .94);
-    }
-    60% {
-        opacity: 1;
         -webkit-transform: scale3d(1.03, 1.03, 1.03);
         transform: scale3d(1.03, 1.03, 1.03);
     }
+    40% {
+        -webkit-transform: scale3d(.99, .99, .99);
+        transform: scale3d(.99, .99, .99);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.01, 1.01, 1.01);
+        transform: scale3d(1.01, 1.01, 1.01);
+    }
     80% {
-        -webkit-transform: scale3d(.97, .97, .97);
-        transform: scale3d(.97, .97, .97);
+        -webkit-transform: scale3d(.99, .99, .99);
+        transform: scale3d(.99, .99, .99);
     }
     100% {
         opacity: 1;
