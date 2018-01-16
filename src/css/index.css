@@ -670,6 +670,11 @@ div {
 .page3 .intro-btn .intro-btn-txt {
     width: 3.54rem;
     height: 1.08rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.14rem;
+    margin: auto;
 }
 
 .page4 {}
@@ -901,7 +906,7 @@ div {
         transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
     0% {
-        opacity: .8;
+        /* opacity: .8; */
         -webkit-transform: scale3d(.9, .9, .9);
         transform: scale3d(.9, .9, .9);
     }
@@ -940,7 +945,7 @@ div {
         transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
     0% {
-        opacity: .8;
+        /* opacity: .8; */
         -webkit-transform: scale3d(.9, .9, .9);
         transform: scale3d(.9, .9, .9);
     }
@@ -984,7 +989,7 @@ div {
         transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
     0% {
-        opacity: .8;
+        /* opacity: .8; */
         -webkit-transform: scale3d(.97, .97, .97);
         transform: scale3d(.97, .97, .97);
     }
@@ -1023,7 +1028,7 @@ div {
         transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
     0% {
-        opacity: .8;
+        /* opacity: .8; */
         -webkit-transform: scale3d(.97, .97, .97);
         transform: scale3d(.97, .97, .97);
     }
