@@ -891,8 +891,8 @@ div {
     }
 }
 .bounceIno {
-    animation: bounceIno 1.2s linear infinite;
-    -webkit-animation: bounceIno 1.2s linear infinite;
+    animation: bounceIno 1.5s linear infinite;
+    -webkit-animation: bounceIno 1.5s linear infinite;
 }
 
 @-webkit-keyframes bounceIno {
@@ -907,8 +907,8 @@ div {
     }
     0% {
         /* opacity: .8; */
-        -webkit-transform: scale3d(.9, .9, .9);
-        transform: scale3d(.9, .9, .9);
+        -webkit-transform: scale3d(.94, .94, .94);
+        transform: scale3d(.94, .94, .94);
     }
     20% {
         -webkit-transform: scale3d(1.07, 1.07, 1.07);
@@ -946,8 +946,8 @@ div {
     }
     0% {
         /* opacity: .8; */
-        -webkit-transform: scale3d(.9, .9, .9);
-        transform: scale3d(.9, .9, .9);
+        -webkit-transform: scale3d(.94, .94, .94);
+        transform: scale3d(.94, .94, .94);
     }
     20% {
         -webkit-transform: scale3d(1.07, 1.07, 1.07);
