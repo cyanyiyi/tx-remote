@@ -4,7 +4,6 @@ $(function () {
     main.init = function () {
         main.page1();
         main.loadLine();
-        // main.initSwipper();
     }
     main.initSwipper = function () {
         main.mainSwiper = new Swiper('.swiper-container-main', {
